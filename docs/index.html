@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Motion Craft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+</head>
+
+<body>
+    <div id="body">
+        <h1 id="title"></h1> <br>
+        <div id="author-list"></div> <br>
+        <div id="affiliation-list"></div>
+        <div id="footnote-list"></div><br>
+        <div id="conference"></div><br>
+        <div id="button-list"></div><br>
+
+        <h2>Abstract</h2>
+        <div id="abstract"></div><br>
+
+        <h2>Videos</h2>
+        <div id="videostrailer"></div><br>
+
+        <h2>Method Overview</h2>
+        <p id="methodoverview">
+            we propose a novel zero-shot video generation method, named \ourmethod, where an image (real or generated),
+            serving as a starting frame $I^0$, is animated according to a physical simulation, by means of a (possibly
+            time-varying) optical-flow generator $\mathcal{W}$ in the noise latent space. The outcome is a video made of
+            $N$ frames $I^0,\dots,I^{N-1}$ that follows the motion prescribed by the physical simulation and evolves the
+            content of the first frame coherently. Inspired by the previous observation, this animation is obtained by
+            warping the noisy latent representation of an image in the latent diffusion space. Regarding the physics
+            simulation for the optical flow generation, we use different libraries to simulate different physics, as
+            explained in the experimental section, such as fluid dynamics, rigid motion and multi-agent systems. It is
+            also possible, albeit not shown in this paper, to use animation software to generate the required optical
+            flows.
+        </p>
+        <div id="methodimage">
+            <img src="assets/arch.png" alt="MotionCraft Overview">
+        </div><br>
+
+        <div id="bibtex"></div><br>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
