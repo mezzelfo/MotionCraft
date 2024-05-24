@@ -36,10 +36,10 @@
     "affiliations": ["Politecnico di Torino"],
     "footnotes": [["*","equal contribution"]],
     "URLs": {
-        "paper": "TODO",
-        "arxiv": "TODO",
+        "paper": "https://arxiv.org/pdf/2405.13557",
+        "arxiv": "https://arxiv.org/abs/2405.13557",
         "code": "https://github.com/mezzelfo/MotionCraft"
     },
     "abstract": "Generating videos with realistic and physically plausible motion is one of the main recent challenges in computer vision. While diffusion models are achieving compelling results in image generation, video diffusion models are limited by heavy training and huge models, resulting in videos that are still biased to the training dataset. In this work we propose MotionCraft, a new zero-shot video generator to craft physics-based and realistic videos. MotionCraft is able to warp the noise latent space of an image diffusion model, such as Stable Diffusion, by applying an optical flow derived from a physics simulation. We show that warping the noise latent space results in coherent application of the desired motion while allowing the model to generate missing elements consistent with the scene evolution, which would otherwise result in artefacts or missing content if the flow was applied in the pixel space. We compare our method with the state-of-the-art Text2Video-Zero reporting qualitative and quantitative improvements, demonstrating the effectiveness of our approach to generate videos with finely-prescribed complex motion dynamics.",
-    "base64bibtex": "d29yayBpbiBwcm9ncmVzcw"
+    "base64bibtex": "QGFydGljbGV7c2F2YW50YWlyYTIwMjRtb3Rpb25jcmFmdCwKICAgICAgdGl0bGU9e01vdGlvbkNyYWZ0OiBQaHlzaWNzLWJhc2VkIFplcm8tU2hvdCBWaWRlbyBHZW5lcmF0aW9ufSwgCiAgICAgIGF1dGhvcj17THVjYSBTYXZhbnQgQWlyYSBhbmQgQW50b25pbyBNb250YW5hcm8gYW5kIEVtYW51ZWxlIEFpZWxsbyBhbmQgRGllZ28gVmFsc2VzaWEgYW5kIEVucmljbyBNYWdsaX0sCiAgICAgIGpvdXJuYWw9e2FyWGl2IHByZXByaW50IGFyWGl2OjI0MDUuMTM1NTd9LAogICAgICB5ZWFyPXsyMDI0fQp9"
 }
